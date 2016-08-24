@@ -1,0 +1,252 @@
+@media only screen and (max-width: 480px) {
+    li img {
+        display: none;
+    }
+    
+    .logo {
+        margin-left: 20px;
+    }
+    .glance-col {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .menu h3 {
+        margin-top: -10px;
+    }
+    table {
+        font-size: 5px;
+    }
+    .select-dropdown select {
+        width: 92px;
+        font-size: 5px;
+    }
+    .select-dropdown select {
+        padding: 9px 0px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .webform li {
+        font-size: 3px;
+    }
+    .table__row,
+    .table__headers h2,
+    .table__price,
+    .table__stats,
+    .table__listed {
+        font-size: 10px;
+    }
+    .table__headers h2 {
+        font-size: 7px;
+    }
+    .table__options img {
+        height: 20px;
+        width: 20px;
+    }
+    .sub-menu {
+        display: none;
+    }
+    label {
+        font-size: 8px;
+    }
+    .check-area {
+        font-size: 6px;
+    }
+    input[type=checkbox],
+    input[type=radio] {
+        margin: 4px 0 0;
+        margin-top: 1px\9;
+        line-height: normal;
+    }
+    .location i {
+        margin-top: 10px;
+    }
+    .active-bar {
+        font-size: 10px;
+    }
+    .feature-listing a {
+        font-size: 8px;
+    }
+    .glance-col {
+        width: 100%;
+    }
+    .glance-head {
+        width: 100%;
+    }
+	.drop-image{
+		top: 20%;
+		left: 0%;
+		width: 100%;
+		display: none !important;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 720px) {
+    .logo {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    li img {
+        display: none;
+    }
+    .glance-col {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .menu h3 {
+        margin-top: 5px;
+    }
+    .log {
+        margin-right: 15px;
+    }
+    .glance-col {
+        width: 200px;
+    }
+    .glance-head {
+        width: 200px;
+    }
+    .table__row,
+    .table__price,
+    .table__stats,
+    .table__listed {
+        font-size: 10px;
+    }
+    .table__options img {
+        height: 30px;
+        width: 30px;
+    }
+    .sub-menu {
+        display: none;
+    }
+    .navbar-nav>li>a {
+        padding: 13px;
+    }
+    .glance-col {
+        width: 100%;
+    }
+    .glance-head {
+        width: 100%;
+    }
+    .glance {
+        overflow-x: hidden;
+    }
+	.drop-image{
+		top: 20%;
+		left: 0%;
+		width: 100%;
+		display: none !important;
+	}
+    
+
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1024px) {
+    .logo {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .menu img {
+        width: 15px;
+        height: 15px;
+    }
+    .menu h3 {
+        font-size: 10px;
+    }
+    .logo {
+        padding-right: 0px;
+    }
+    .glance-col {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .glance-col {
+        width: 258px;
+    }
+    .glance-head {
+        width: 258px;
+    }
+    .drop-image {
+        width: 300px;
+    }
+    nav>li>a {
+    padding: 26px 8px;
+    }
+    .glance-col {
+        width: 44%;
+    }
+    .glance-head {
+        width: 100%;
+    }
+	.drop-image{
+		top: 16%;
+		left: 25%;
+		
+	}
+    .account-id{
+    margin-top: 20px;
+    }
+    .navbar-nav>li>a {
+    background: none;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    display: block;
+    padding: 13px;
+}
+    
+}
+.post{
+    margin-top: 20px;
+}
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+    .last {
+        margin-left: 0px;
+    }
+    .logo {
+        padding-right: 0px;
+    }
+    .glance-col {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .log {
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+    .glance-col {
+        width: 300px;
+    }
+    .glance-head {
+        width: 300px;
+    }
+    .car {
+        width: 13.70%;
+    }
+    .active-car {
+        font-size: 13px;
+    }
+	
+}
+
+@media only screen and (min-width: 1225px) {
+    .last {
+        margin-right: 10px;
+    }
+    .logo {
+        padding-right: 0px;
+    }
+    .glance-col {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .log {
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    .car {
+        width: 13.70%;
+    }
+
+}

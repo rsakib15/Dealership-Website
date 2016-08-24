@@ -1,0 +1,281 @@
+                .select-dropdown select {
+                    padding: 6px 7px;
+                    width: 200px;
+                }
+                .select-dropdown button {
+                    background: #ff6b00;
+                    border: medium none;
+                    border-radius: 2px;
+                    color: #ffffff;
+                    font-weight: 600;
+                    padding: 5px 27px;
+                }
+                .active-header {
+                    background: #2d2d2d;
+                    position: relative;
+                }
+                .active-header::after {
+                    background: rgba(0, 0, 0, 0) url("../image/info.png") no-repeat scroll 0 0;
+                    content: "";
+                    display: block;
+                    height: 28px;
+                    left: 153px;
+                    position: absolute;
+                    top: 3px;
+                    width: 26px;
+                }
+                .active-header h1 {
+                    color: #ffffff;
+                    font-size: 17px;
+                    font-weight: 500;
+                    margin: 0;
+                    padding: 5px 0;
+                }
+                .inner-details {
+                    display: -webkit-inline-box;
+                    display: -webkit-inline-flex;
+                    display: -ms-inline-flexbox;
+                    display: inline-flex;
+                    padding: 15px 0;
+                    width: 100%;
+                }
+                .edit {
+                    text-align: center;
+                    width: 15%;
+                }
+                .activity {
+                    text-align: center;
+                    width: 15%;
+                }
+                .admin {
+                    text-align: center;
+                    width: 15%;
+                }
+                .status {
+                    text-align: center;
+                    width: 13%;
+                }
+                .name {
+                    width: 16%;
+                }
+                .icon {
+                    width: 6%;
+                }
+                .inner-details span {
+                    color: #2d2d2d;
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+                .admin span {
+                    display: block;
+                    padding-top: 15px;
+                }
+                .inner-details a {
+                    display: inline-block;
+                    padding-top: 8px;
+                }
+                .user-type li {
+                    padding: 10px;
+                    margin-bottom: 15px;
+                }
+                @media only screen and (max-width: 1588px) {
+                    .user-details .col-md-8 {
+                        width: 100%;
+                    }
+                }
+                @media only screen and (min-width: 767px) and (max-width: 1200px) {
+                    .user-details .col-md-8 {
+                        width: 100%;
+                    }
+                    .activity {
+                        text-align: center;
+                        width: 25%;
+                    }
+                    .icon {
+                        width: 10%;
+                    }
+                    .name {
+                        width: 22%;
+                    }
+                }
+                @media only screen and (max-width: 767px) {
+                    .inner-details {
+                        border-bottom: 1px solid #f0f0f0;
+                        display: inherit;
+                        padding: 15px 0;
+                        text-align: center;
+                        width: 100%;
+                    }
+                    .select-dropdown {
+                        text-align: center;
+                    }
+                    .select-dropdown select {
+                        margin-bottom: 17px;
+                        padding: 9px 7px;
+                    }
+                    .active-header h1 {
+                        text-align: center;
+                    }
+                    .icon,
+                    .name,
+                    .status,
+                    .admin,
+                    .activity,
+                    .edit {
+                        width: 100%;
+                    }
+                    .active-header::after {
+                        display: none;
+                    }
+                    header h4 {
+                        text-align: center;
+                    }
+                }
+                .brand-logo h1 {
+                    font-style: italic;
+                    font-weight: 600;
+                    margin: 0;
+                    color: #444444;
+                    font-size: 26px;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                }
+                .space {
+                    padding-left: 50px;
+                    color: #FF6B00 !important;
+                }
+                .stat-breakdown .well {
+                    border-radius: 0px;
+                }
+                .stat-breakdown>.well {
+                    height: 160px;
+                    background: #000;
+                }
+                .stat-breakdown-white .well {
+                    border-radius: 0px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                .stat-breakdown-white>.well {
+                    height: 160px;
+                    background: #fff;
+                }
+                .stat-breakdown-add i {
+                    color: #FF6B00;
+                }
+                .stat-breakdown-add {
+                    height: 80px;
+                    background: #000;
+                    margin-top: 60px;
+                }
+                .stat-breakdown-add p {
+                    margin-top: 25px;
+                }
+                .switch {
+                    width: 103px !important;
+                }
+                .stat-breakdown-white-heading {
+                    padding-top: 10px;
+                }
+                .heading-top {
+                    margin-top: 20px;
+                }
+                .content {
+                    padding-bottom: 20px;
+                }
+                .edit a {
+                    color: #FF6306;
+                }
+                .edit {
+                    margin-top: 10px;
+                }
+                .edit a:hover {
+                    color: #FF6306;
+                }
+                .btn-save {
+                    background: #FF6306;
+                    color: #fff;
+                    font-weight: bold;
+                    padding: 8px 12px;
+                    border: 0px;
+                }
+                .btn-save:hover {
+                    color: #fff;
+                }
+                .stat-breakdown-small .well {
+                    border-radius: 0px;
+                    margin-top: 40px;
+                }
+                .stat-breakdown-small>.well {
+                    height: 120px;
+                    background: #000;
+                }
+                .web-setting {
+                    margin-bottom: 20px;
+                }
+                .heading img {
+                    margin-left: 20px;
+                }
+                .addon {
+                    margin-top: 50px;
+                }
+                .addon-text span {
+                    color: #FF6B00;
+                }
+                .inner-addon {
+                    color: #fff;
+                }
+                .message p {
+                    background: #444444;
+                    text-align: center;
+                    margin-top: 5px;
+                }
+                .sub-message {
+                    font-size: 15px;
+                    text-align: center;
+                    color: #aaa;
+                }
+                .edit {
+                    color: #FF6B00;
+                }
+                .message {
+                    font-weight: bold;
+                    width: 100%;
+                }
+                .cross {
+                    margin-top: 10px;
+                }
+                .searchbox {
+                    width: 100%;
+                    margin-top: 40px;
+                    padding-top: 8px;
+                    font-size: 20px;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    position: relative;
+                }
+                .searchbox:active,
+                .searchbox:focus {
+                    outline: 0px;
+                }
+                .searchbtn {
+                    position: absolute;
+                    top: 41px;
+                    right: 16px;
+                    background: #00B5AD;
+                    padding: 10px 40px;
+                    border: 0px;
+                    color: #fff;
+                    font-size: 18px;
+                }
+                #googleMap {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+                .mapbutton {
+                    margin-top: 50px;
+                }
+                .mapbutton button {
+                    display: block;
+                    margin-top: 15px;
+                }

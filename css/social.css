@@ -1,0 +1,330 @@
+.header-info .info-box .icon-box,
+.header-info .info-box .text-box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+.account-id{
+    font-size: 16px;
+    
+}
+.account-name{
+    color: #FF6A03;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.tweet{
+	
+	
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.tweet a{
+	color: #fff;
+	padding: 10px 20px;
+	background: #2AA9E0;
+	border-bottom: 2px solid #eee;
+	
+}
+.header-info .info-box p {
+    color: #000;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.header-info .info-box .icon-box {
+    padding-right: 20px;
+    width: 65px;
+}
+
+.banner-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.inst-number{
+    font-size: 45px;
+    font-weight: bold;
+}
+.cmnt-number{
+    background: #2E7CFF;
+    padding: 6px 15px;
+    color: #fff;
+}
+.cmnt-number:hover{
+    background: #2E7CFF;
+    color: #fff;
+}
+.comment-box{
+    border-top: 1px solid #f44;
+    border-top-style: dotted;
+    padding: 10px;
+}
+
+.banner-section h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.btn-follow{
+    color: #fff;
+    padding: 6px 8px;
+    
+    border-radius: 5px;
+}
+.fan{
+    background: #008C23;
+}
+
+.mutual{
+    background: #2AA9E0;
+}
+
+.number {
+    font-size: 45px;
+}
+
+.subtitle {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.your-tag a {
+    margin-right: 20px;
+    line-height: 2.4em;
+    padding: 5px 10px;
+    color: #000;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.tag-left {
+    border-right-style: dotted;
+}
+
+.tag-instragram a {
+    margin-right: 20px;
+    line-height: 2.4em;
+    padding: 5px 10px;
+}
+
+.your-tag a:hover,
+.tag-instragram a {
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.fb-posts {
+    border: 2px solid #eee;
+    margin-bottom: 20px;
+}
+
+.fb-post-text {
+    font-size: 15px;
+    line-height: 1.4em;
+}
+
+.post-user {
+    background: #EFF3F6;
+}
+
+.post-user p {
+    padding-top: 10px;
+}
+
+.progress-bar{
+    background: #D64E00;
+}
+
+.post-user-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.top-post {
+    margin-top: 20px;
+}
+
+.top-post i {
+    margin-right: 5px;
+}
+
+.top-post-logo a {
+    padding: 8px 20px;
+    background: #0C6BA9;
+    color: #fff;
+}
+
+.fb-post-text {
+    margin-top: 20px;
+}
+
+.margin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.views {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #FBFBFB;
+    border-radius: 0px;
+}
+
+.view-number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.view-more {
+    margin-top: 20px;
+}
+
+.view-more a {
+    background: #FF7F33;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 8px;
+}
+.eng-media>ul>li{
+    display: inline-block;
+    
+}
+
+.post a{
+    background: #314B84;
+    font-size: 20px;
+    color: #fff !important;
+    padding: 14px 5px;
+    
+}
+
+.gain-followers ul li{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.gain-followers ul li img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.underline-link{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.new-follower{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.new-follower-col{
+    background: #eee;
+    padding: 50px;
+    border: 1px solid #fff;
+}
+
+.new-follower-col img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.follower-sub{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #A4AEB7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.month-overview td,.month-overview th{
+    color: #8B96A0;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.graph-head{
+    font-size: 18px;
+}
+
+.table-green-text{
+    color: #4CB44A !important;
+    font-size: 25px !important;
+}
+
+.sub-small{
+    font-size: 12px;
+}
+
+.gain-followers>ul>li>img{
+    margin-left: 5px; 
+}
+
+.green-color-text{
+    color: #4CB44A;
+}
+.red-color-text{
+    color: #CB1B4B;
+}
+
+footer{
+    margin-bottom: 50px;
+}
+
+@media(max-width: 479px) {}
+
+@media only screen and(min-width: 480px) and (max-width: 767px) {
+    .info-box {
+        margin-top: 50px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .info-box {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+    .info-box {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1225px) {
+    .fb-option {
+        width: 220px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .header-info .info-box {
+        display: block;
+    }
+    .header-info .info-box .icon-box {
+        text-align: center;
+    }
+}

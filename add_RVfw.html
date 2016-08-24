@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="">
+    <title>Add RVs Inventory</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/addcarfw.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-logo navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#logo-collapse">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <a href="#"><img src="images/logo.png" class="img-responsive logo" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="logo-collapse">
+                    <ul class="nav navbar-nav navbar-right text-center">
+                        <li class="menu ">
+                            <a href="dashboard.html"><img src="images/dashboard.png" alt="">
+                            <h3>Dashboard</h3></a>
+                        </li>
+                        <li class="dropdown mega-dropdown active menu">
+                            <a href="inventory.html" class="dropdown-toggle" data-toggle="dropdown"><img src="images/inventory.png" alt=""><h3 class="menu-item">Inventory</h3></a>
+                            <div class="dropdown-menu mega-dropdown-menu three-column-navbar">
+                                <div class="container-fluid">
+                                    <div class="col-xs-12">
+                                       <div class="col-xs-6  text-left">
+                                           <ul>
+                                               <li><a href="#">All Active Inventory<span class="status pull-right">A</span></a></li>
+                                                <li><a href="#">Pending Site Inventory<span class="status pull-right">P</span></a></li>
+                                                <li><a href="#">Sold Inventory<span class="statys pull-right">SOLD</span></a></li>
+                                                <li><a href="#">60+ Days Listed</a></li>
+                                                <li><a href="#">90+ Days Listed</a></li>
+                                           </ul>
+                                       </div>
+                                       <div class="col-xs-6">
+                                           <ul>
+                                               <li><a href="">LOW HEALTH STATUS</a></li>
+                                           </ul>
+                                           <div class="col-xs-offset-2 col-xs-1 ">
+                                                <a href="">ADD<span class="inv">NEW</span><br>INVENTORY</a>
+                                            </div>
+                                            <div class="col-xs-offset-1 col-xs-7 addnewimg">
+                                                <a href="addcarfw.html"><img src="images/addnew.png" alt=""></a>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>               
+                            </div>				
+                        </li>
+                        <li class="menu">
+                            <a href="website.html"><img src="images/website.png" alt="">
+                                <h3>Website</h3></a>
+                        </li>
+                        <li class="dropdown mega-dropdown menu">
+                            <a href="facebookmedia.html" class="dropdown-toggle" data-toggle="dropdown"><img src="images/social.png" alt=""><h3 class="menu-item">Social Media</h3></a>
+                            <div class="dropdown-menu mega-dropdown-menu three-column-navbar ">
+                                <div class="container-fluid">
+                                   <div class="col-xs-6  text-left">
+                                        <ul>
+                                            <li><a href="facebookmedia.html">Facebook</a></li>
+                                            <li><a href="twittermedia.html">Twitter</a></li>
+                                            <li><a href="instragrammedia.html">Instragram</a></li>
+                                        </ul>
+                                    </div>
+                                
+                                    <div class="col-xs-6">
+                                        <div class="col-xs-6">
+                                            <a href="socialsettings.html">MEDIA ACCOUNT<br><span class="inv">CONFIGURATION</span></a>
+                                        </div>
+                                        <div class="col-xs-6 addnewimg pull-left">
+                                                <a href="socialsettings.html"><img src="images/config.png" alt=""></a>
+                                        </div> 
+                                    </div>
+                                </div>               
+                            </div>				
+                        </li>
+						<li class="menu">
+                            <a href="leads.html"><img src="images/leads.png" alt="">
+                            <h3>Leads</h3></a>
+                        </li>
+                        <li class="menu">
+                            <a href="customers.html"><img src="images/customers.png" alt="">
+                            <h3>Customers</h3></a>
+                        </li>
+                        <li class="dropdown mega-dropdown menu">
+                            <a href="inventorysettings.html" class="dropdown-toggle" data-toggle="dropdown"><img src="images/settings.png" alt=""><h3 class="menu-item">Settings</h3></a>
+                            <div class="dropdown-menu mega-dropdown-menu three-column-navbar ">
+                                <div class="container-fluid">
+                                    <div class="col-xs-12">
+                                       <div class="col-xs-6  text-left">
+											<ul>
+                                               <li><a href="#">About Dealership Settings</a></li>
+                                               <li><a href="#">Social Media Settings</a></li>
+											</ul>
+                                       </div>
+                                       <div class="col-xs-6 text-left">
+											<ul>
+                                               <li><a href="">General Settings</a></li>
+                                               <li><a href="usersettings.html">User Settings</a></li>
+                                               <li><a href="">Enable Disable Tools</a></li>
+                                               <li><a href="">GeoTargeting Tools</a></li>
+                                               <li><a href="">SEO Tools</a></li>
+											</ul>
+                                        </div>
+                                    </div>
+                                </div>               
+                            </div>				
+                        </li>
+                        <li class="log">
+                            <div class="logout">
+                                <p><img src="images/logout.png" alt="logout"><span class="username">Admin </span><span class="logout-button"><a href="">Logout</a></span>
+                                </p>
+                                <button class="btn btn-add">Add New Unit</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+    <section class="brand-name container-fluid">
+        <div class="row">
+            <div class="col-xs-12 brand-logo">
+                <h3 class="text-center"><span class="red-msg">NO RECORD FOUND FOR VIN.</span><span class="blue-msg">TRY AGAIN?</span></h3>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center decode">
+                <h1>Decode a VIN</h1>
+                <input type="text">
+                <button class="vin btn btn-go-large">GO</button>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 stock">
+                <h1>Add Vegicle Information Manually bellow</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="heading">
+        <div class="container-fluid">
+            <p>Select Vehicle Type</p>
+        </div>
+    </section>
+
+    <section class="select-vehicle">
+        <div class="container">
+            <div class="row">
+                <li class="col-xs-6 col-md-2 car">
+                    <a href="addcarfw.html"><img src="images/classic.png" height="50px" width="100px" alt=""><h3 class="text-center">Car</h3></a>
+                </li>
+                <li class="col-xs-6 col-md-2">
+                    <a href=""><img src="images/van.png" height="50px" width="100px" alt=""><h3 class="text-center">Van</h3></a>
+                </li>
+                <li class="col-xs-6 col-md-2 car">
+                    <a href=""><img src="images/truck.png" height="50px" width="100px" alt=""><h3 class="text-center">Truck/SUV</h3></a>
+                </li>
+                <li class="col-xs-6 col-md-2 car">
+                    <a href=""><img src="images/classic.png" height="50px" width="100px" alt=""><h3 class="text-center">Classic Car</h3></a>
+                </li>
+                <li class="col-xs-6 col-md-2 car ">
+					<a href="add_motorcyclefw.html"><img src="images/motorcycle.png" height="50px" width="100px" alt=""><h3 class="text-center">Motorcycle/ATV</h3></a>
+                </li>
+                <li class="col-xs-6 col-md-2 car  active-car">
+                    <a href="add_RVfw.html"><img src="images/rv.png" height="50px" width="100px" alt=""><h3 class="text-center">RVs</h3></a>
+                    <p class="active-bar">Currently Selected</p>
+                </li>
+                <li class="col-xs-6 col-md-2 car">
+                    <a href="add_boatsfw.html"><img src="images/boat.png" height="50px" width="100px" alt=""><h3 class="text-center">Boats</h3></a>
+                </li>
+            </div>
+        </div>
+    </section>
+
+    <section class="heading">
+        <div class="container-fluid">
+            <p>Select Listing Options</p>
+        </div>
+    </section>
+
+    <section class="location">
+        <div class="container">
+            <div class="row location-items">
+                <div class="col-xs-12 col-md-4">
+                    <div>
+                        <span class="col-xs-6 pull-left">Location</span>
+                        <span class="select-dropdown normal">
+                        <select>
+							<option>December 2013</option>
+                            <option>November 2013</option>
+                            <option>October 2013</option>
+                        </select>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div>
+                        <span class="col-xs-6 col-lg-8 pull-left">Listing Status</span>
+                        <span class="select-dropdown normal">
+                            <select>
+                                <option>December 2013</option>
+                                <option>November 2013</option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <p>
+						<span class="feature-listing"><a href="">Featuring Listing</a></span>
+						<input type="checkbox"><span> Home Page Feature</span> <img src="images/info.png" alt="">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="heading">
+        <div class="container-fluid">
+            <p>Select Car Options</p>
+        </div>
+    </section>
+
+    <section class="input-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-7 col-xs-12 leads-box">
+                    <div class="col-xs-12 well">
+                        <div class="col-xs-12 col-lg-6 well margn">
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="name" class="pull-left">Stock Number</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="name">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="category" class="pull-left">Category:*</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <span>RVs
+                                </span>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="sub-category" class="pull-left">Sub Category:*</label>
+                                </div>
+                                <div id="year" class="col-xs-12 col-lg-8 pull-right">
+                                    <select>
+                                        <option>December 2013</option>
+                                        <option>The second option</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="year" class="pull-left">Year:</label>
+                                </div>
+                                <div id="year" class="col-xs-12 col-lg-8 pull-right">
+                                    <select>
+                                        <option>December 2013</option>
+                                        <option>The second option</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="Make" class="pull-left">Make:*</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <select>
+                                        <option>December 2013</option>
+                                        <option>The second option</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="model" class="pull-left">Model:*</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="model">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="trim" class="pull-left">Trim:</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="trim">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="kilo" class="pull-left">Kilometers:</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="kilo">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xs-12 col-lg-6 well margn">
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="legth" class="pull-left">Length: (ft)</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="length">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="width" class="pull-left">Width: (ft)</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="width">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="price" class="pull-left">price:</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="price">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="sale" class="pull-left">Sale Price:</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <input type="text" class="input-text" id="sale">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 input-section">
+                                <div class="col-xs-12 col-lg-4">
+                                    <label for="warranty" class="pull-left">Warranty:</label>
+                                </div>
+                                <div class="col-xs-12 col-lg-8 pull-right">
+                                    <select>
+                                        <option>Warranty Available</option>
+                                        <option>Warranty Not Available</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+				
+                <div class="col-xs-12 col-sm-12 col-lg-5 ">
+                    <div class="leads-box">
+                        <div class="col-xs-12 well ">
+                            <div class="col-xs-12 well heading-rate">
+                                <div class="col-xs-3 selected">
+									<img class="img-responsive" src="images/select-car.png" alt="">
+                                </div>
+                                <div class="col-xs-3">
+									<img class="img-responsive" src="images/select-car.png" alt="">
+                                </div>
+                                <div class="col-xs-3">
+									<img class="img-responsive" src="images/select-car.png" alt="">
+                                </div>
+                                <div class="col-xs-3">
+									<img class="img-responsive" src="images/select-car.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 edit-images">
+                        <p><a href="">Edit Images</a><span><img src="images/info.png" class="pull-right" alt=""></span>
+                        </p>
+                    </div>
+                    <div class="col-xs-12 well ">
+                        <div class="col-xs-12 well ">
+                            <div class="text-center">
+                                <img src="images/drap.png" alt="">
+                                <h1 class="drag-text">Drag &amp; Drop Images</h1>
+                                <h3 class="drag-subtext">or click to upload</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="heading">
+        <div class="container">
+            <p class="text-center"><i class="fa fa-arrows"></i>Expand Option</p>
+        </div>
+    </section>
+
+    <section class="check-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-8 col-xs-12 leads-box">
+                    <div class="col-xs-6 well exapnd-head">
+                        <p>Additional Options</p>
+                    </div>
+                    <div class="col-xs-12 well pad ">
+                        <div class="clear"></div>
+                        <div class="col-xs-3 well">
+                            <li><input type="checkbox"> ABS Brakes</li>
+                            <li><input type="checkbox"> AC(Central Ducted)</li>
+                            <li><input type="checkbox"> AC (Dash)/li>
+                            <li><input type="checkbox"> AC (Roof)</li>
+                            <li><input type="checkbox"> Air Conditioning</li>
+                            <li><input type="checkbox"> Air Ride Suspension</li>
+                        </div>
+                        <div class="col-xs-3 well">
+                            <li><input type="checkbox"> Awning</li>
+                            <li><input type="checkbox"> Basement</li>
+                            <li><input type="checkbox"> DC Converter</li>
+                            <li><input type="checkbox"> Electric Hookup</li>
+                            <li><input type="checkbox"> Electrical Jacks</li>
+                            <li><input type="checkbox"> Front Overhead Bunk</li>
+                        </div>
+                        <div class="col-xs-3 well">
+                            <li><input type="checkbox"> Rear Backup Cam</li>
+                            <li><input type="checkbox"> Reverse Park Assist</li>
+                            <li><input type="checkbox"> Parking Sensor</li>
+                            <li><input type="checkbox"> Shower</li>
+                            <li><input type="checkbox"> Skylight</li>
+                            <li><input type="checkbox"> Stabilizer Jacks</li>
+                        </div>
+                        <div class="col-xs-3 well">
+                            <li><input type="checkbox"> Toilet</li>
+                            <li><input type="checkbox"> Trailer Hitch</li>
+                            <li><input type="checkbox"> TV Antenna</li>
+                            <li><input type="checkbox"> Water Heater </li>
+                            <li><input type="checkbox"> Navigation </li>
+                            <li><input type="checkbox"> DVD System</li>
+                            <div class="plus-button">
+								<a href=""><i class="fa fa-plus"></i></a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="heading">
+        <div class="container-fluid">
+            <p class="text-left">More About This Vehicle</p>
+        </div>
+    </section>
+
+    <section class="check-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-lg-7 col-xs-12 leads-box">
+                    <div class="col-xs-6 well exapnd-head">
+                        <p>Vehicles Comments/Description</p>
+                    </div>
+                    <div class="col-xs-5 well exapnd-head orange">
+                        <p><input type="checkbox"> Default Description <img src="images/info.png" alt=""></p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="col-xs-12 well ">
+                        <div class="clear"></div>
+                        <div class="col-xs-12 well">
+                            <textarea class="field-textarea"></textarea>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-5 col-xs-12 leads-box">
+                    <div class="col-xs-6 well exapnd-head">
+                        <p>Disclaimers</p>
+                    </div>
+                    <div class="col-xs-6 well exapnd-head orange">
+                        <p><input type="checkbox"> Default Disclaimer <img src="images/info.png" alt=""></p>
+                    </div>
+                    <div class="col-xs-12 well ">
+                        <div class="clear"></div>
+                        <div class="col-xs-12 well">
+                            <textarea class="field-textarea2"></textarea>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div>
+                            <img src="images/carproof.png" alt="" class="carproof">
+                            <img src="images/carproofsearch.png" alt="" class="carproof2">
+                        </div>
+                        <div class="clear"></div>
+                        <div class="col-xs-12 well url">
+                            <input type="text" class="" placeholder="Enter CarProof URL here">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="btn-group exit">
+                <div class="btn btn-design save-close">Save &amp; Close</div>
+                <div class="btn btn-design save">Save</div>
+                <div class="btn btn-design ext">Exit</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".dropdown").hover(            
+                function() {
+                    $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+                    $(this).toggleClass('open');        
+                },
+                function() {
+                    $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+                    $(this).toggleClass('open');       
+                }
+            );
+        });
+    </script>
+</body>
+</html>
